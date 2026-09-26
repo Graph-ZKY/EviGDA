@@ -1,0 +1,280 @@
+{
+  "release": "EviGDA seven-target reproduction",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "08f083698214e43935b632552428e6aaa523c8c4fd4e6123fa89f726a1ffaf5f"
+    },
+    {
+      "path": "checkpoints/ACMv9/model_final.pt",
+      "bytes": 3686403,
+      "sha256": "186db7f06d79da8b8d87c8e4b91686a96d7615401a03abc902dc15d10ae30b47"
+    },
+    {
+      "path": "checkpoints/ACMv9/predictions.pt",
+      "bytes": 863543,
+      "sha256": "9a77c68037767882a87fb170d4c0bbbbfce2305c6f203a64f319b437caa76b85"
+    },
+    {
+      "path": "checkpoints/Citationv1/model_final.pt",
+      "bytes": 3686403,
+      "sha256": "fb1603666540b314d6a7dad22b7d8140f034af738068b8efa76b05c654f61495"
+    },
+    {
+      "path": "checkpoints/Citationv1/predictions.pt",
+      "bytes": 824183,
+      "sha256": "51de205e29a7a767c683d161fcedb85ab93a47dd21ed96c62d6546b92776849e"
+    },
+    {
+      "path": "checkpoints/CSBM-G4/model_final.pt",
+      "bytes": 282179,
+      "sha256": "65ec5d2bad70f5ba566a9fa48d6002177edbaa77bff8f95ba1497a1e69207e61"
+    },
+    {
+      "path": "checkpoints/CSBM-G4/predictions.pt",
+      "bytes": 706615,
+      "sha256": "6f5a93c6f23ad07e9aa2f4a45537592394fd198b679f9d64de922cdb94e5e5b9"
+    },
+    {
+      "path": "checkpoints/DBLPv7/model_final.pt",
+      "bytes": 3686659,
+      "sha256": "13ddba82d3d7b086ce141767fb701324c24530a3f87e5c4d69e75ad9890c0462"
+    },
+    {
+      "path": "checkpoints/DBLPv7/predictions.pt",
+      "bytes": 506679,
+      "sha256": "fd19bf4fc7985a8b1fe66411a33c179ea9b50b5221d9eed281c4f41843ecb062"
+    },
+    {
+      "path": "checkpoints/FRANKENSTEIN_F4/model_final.pt",
+      "bytes": 280197,
+      "sha256": "ceeecbc2aa107199dbebd43a39add48e7bc15f2e28804f24f74199389730d661"
+    },
+    {
+      "path": "checkpoints/FRANKENSTEIN_F4/predictions.pt",
+      "bytes": 71735,
+      "sha256": "5e517c1c1421dd33af0c24a08b1b6ca4729c276a81ab1d0ef547a6340a8c3169"
+    },
+    {
+      "path": "checkpoints/Mutagenicity_M4/model_final.pt",
+      "bytes": 84165,
+      "sha256": "1441fd6b68c18d1cb74d7da42cf9e3441deb6bb4a7ac2f9d4661eef9df908628"
+    },
+    {
+      "path": "checkpoints/Mutagenicity_M4/predictions.pt",
+      "bytes": 71735,
+      "sha256": "082a91a27efb077ebc70968bddbef8d86684aceb9725153e112574980b4b5b3e"
+    },
+    {
+      "path": "checkpoints/PROTEINS_P4/model_final.pt",
+      "bytes": 81477,
+      "sha256": "7688365dbb7b5b1f636da4d4e66665da1bf6a51c9d2a86415a2505759b6a9faa"
+    },
+    {
+      "path": "checkpoints/PROTEINS_P4/predictions.pt",
+      "bytes": 20023,
+      "sha256": "4659ed5d26478facad114462056ba056305e0d3fda5607a8b312ef93995dd471"
+    },
+    {
+      "path": "configs/table1.json",
+      "bytes": 10175,
+      "sha256": "38ee1c1084154b93bdb277e49a3cd8c4b3f7e52e768bbba278ffdd9641dcd82f"
+    },
+    {
+      "path": "data/Citation/ACMv9/processed/data.pt",
+      "bytes": 254258711,
+      "sha256": "ac569172a56ef50755d24978ea96409bde1ee481b2be1c9a15f9f5a55367c6a1"
+    },
+    {
+      "path": "data/Citation/Citationv1/processed/data.pt",
+      "bytes": 242721879,
+      "sha256": "bec57590a19308bb5ed9e8768161a42de875599840114f3ec8d157c933522434"
+    },
+    {
+      "path": "data/Citation/DBLPv7/processed/data.pt",
+      "bytes": 148938455,
+      "sha256": "cd5f152ac542b95159fcacb9f782df4916d2de3b936169895b923b473c993bd0"
+    },
+    {
+      "path": "data/CSBM/CSBM-G4/processed/data.pt",
+      "bytes": 28247807,
+      "sha256": "84c2414a0d50141c7ac2cf56364162c4df29df4068ab2993a318c14dfc679552"
+    },
+    {
+      "path": "data/FRANKENSTEIN/FRANKENSTEIN_F4/processed/data.pt",
+      "bytes": 13681471,
+      "sha256": "1d339b6da35cb2a788ecbdd02eb208374dc8d47cc8e9cbdcd32b5755bebb7ea1"
+    },
+    {
+      "path": "data/Mutagenicity/Mutagenicity_M4/processed/data.pt",
+      "bytes": 596337,
+      "sha256": "8b5d78915d66ff64b56815ad9b0513ab1908b1262d0f4e8ded2b0d263aa0e1f3"
+    },
+    {
+      "path": "data/PROTEINS/PROTEINS_P4/processed/data.pt",
+      "bytes": 114111,
+      "sha256": "1bf5e625758545d011d250955d8c7b4332319646ec0f57ba3a6608768aa8bfef"
+    },
+    {
+      "path": "evigda/__init__.py",
+      "bytes": 107,
+      "sha256": "978c62876b5e38234f112661a96b1c1713e7adc7e5c91f6511393d8e7148bf7d"
+    },
+    {
+      "path": "evigda/averaging.py",
+      "bytes": 891,
+      "sha256": "69b3c5fde9672a2690f8deca06d1861a9196ec42bf20043178cca44306d10ab6"
+    },
+    {
+      "path": "evigda/config.py",
+      "bytes": 848,
+      "sha256": "44d7add049a76517c802eb4d93dea9e59149c685889ff086ee226bcbf8bea8b5"
+    },
+    {
+      "path": "evigda/data.py",
+      "bytes": 1720,
+      "sha256": "6f6b15b2d259e632cf795a36c1019b43434b42109a870e2054e6e9d09acb5dd0"
+    },
+    {
+      "path": "evigda/losses.py",
+      "bytes": 6295,
+      "sha256": "b49afcbc5d22f3488a3df775c85b9d1fe412997f6441b79bda0a44dcaa6b5dce"
+    },
+    {
+      "path": "evigda/memory.py",
+      "bytes": 2122,
+      "sha256": "b63e1ba16c6adc61a9aac5133ef0e94ab62729239ff9b9d1c44fbed24e7c9dbd"
+    },
+    {
+      "path": "evigda/models.py",
+      "bytes": 4745,
+      "sha256": "cfde1c1f99a3a17f54b7239ce444de84ae16a934654201a9939af76ee4128368"
+    },
+    {
+      "path": "evigda/runner.py",
+      "bytes": 7773,
+      "sha256": "ff941bf624a4617d3183166a1d6e33db67649b01c57f95909ac8882b4698d5e1"
+    },
+    {
+      "path": "evigda/trainer.py",
+      "bytes": 14184,
+      "sha256": "15418d92db2829dc8f15f0e40ed94bda56aa790ab3ba02c0270b1cd9d1d05b10"
+    },
+    {
+      "path": "main.py",
+      "bytes": 9415,
+      "sha256": "fd1e2f939cdb6cbc23b8082b4767fa57d8a918264f84d40f4f24ba6999b267e8"
+    },
+    {
+      "path": "mypretrain/ACMv9/Citationv1/model_Citationv1.pth",
+      "bytes": 3684542,
+      "sha256": "8edaaef7266f437071c304539001e0d9370e5a87ec62b4c7749202566ac08554"
+    },
+    {
+      "path": "mypretrain/ACMv9/DBLPv7/model_DBLPv7.pth",
+      "bytes": 3684438,
+      "sha256": "e2480e4f5cecc67f58cbac14f49b828893043bcbb5d6cc0be2a2d5632e6068e2"
+    },
+    {
+      "path": "mypretrain/Citationv1/ACMv9/model_ACMv9.pth",
+      "bytes": 3684412,
+      "sha256": "c9434a57f2dd84ed9a0bdff9ab3df6b30982ac3f1c6ced168de563b8120ded5b"
+    },
+    {
+      "path": "mypretrain/Citationv1/DBLPv7/model_DBLPv7.pth",
+      "bytes": 3684438,
+      "sha256": "29ca1dfa9babb79fd17ca1334f9b7ecf3bbf095cc45296eff35abdedf8512b95"
+    },
+    {
+      "path": "mypretrain/CSBM-G4/CSBM-G1/model_CSBM-G1.pth",
+      "bytes": 279731,
+      "sha256": "3f69038ba9002035597adb3b9114eca7bc59cab08abdd4bca91927495b6a2fb9"
+    },
+    {
+      "path": "mypretrain/CSBM-G4/CSBM-G2/model_CSBM-G2.pth",
+      "bytes": 279731,
+      "sha256": "6ad8a27893963b3cf91f3c249ae2553355e7a185ae5ca109ca436d45f8d92549"
+    },
+    {
+      "path": "mypretrain/CSBM-G4/CSBM-G3/model_CSBM-G3.pth",
+      "bytes": 279731,
+      "sha256": "17912c4ac6872fa99af7739afebe26bacbda7b545792fe57c97ae0f7268fdf99"
+    },
+    {
+      "path": "mypretrain/DBLPv7/two_layer/ACMv9/model_ACMv9.pth",
+      "bytes": 3683971,
+      "sha256": "a819d16f33bd3aab2ade25314e3fe26ef3eebce371cb3037dc8bb2832437778a"
+    },
+    {
+      "path": "mypretrain/DBLPv7/two_layer/Citationv1/model_Citationv1.pth",
+      "bytes": 3684091,
+      "sha256": "6dea4af92993ad12da8b6cdf70e98ad875f996c318c6c521ba05fa9603ac57cc"
+    },
+    {
+      "path": "mypretrain/model_FRANKENSTEIN_F1.pth",
+      "bytes": 277897,
+      "sha256": "622ebd2c2badfb3d9fce968db826bdfde29dbb4a76e69b5f9cd9318ff6452bef"
+    },
+    {
+      "path": "mypretrain/model_FRANKENSTEIN_F2.pth",
+      "bytes": 277897,
+      "sha256": "c5d75b2e0e20b4f60c0e1fbc25d37391f403b1b0301230ac88927c5d67c03b1c"
+    },
+    {
+      "path": "mypretrain/model_FRANKENSTEIN_F3.pth",
+      "bytes": 277897,
+      "sha256": "9c6523251eabfaaef4d93e902f480625f5de3053b75bb564dae1d2b2c2455f58"
+    },
+    {
+      "path": "mypretrain/model_Mutagenicity_M1.pth",
+      "bytes": 81801,
+      "sha256": "36b0297f95b5c7c57c8b7f3337007ea6f387a82ce2eef41f2087b6b9636043a6"
+    },
+    {
+      "path": "mypretrain/model_Mutagenicity_M2.pth",
+      "bytes": 81801,
+      "sha256": "d6406e061a068ce857a3003d4dc3fd2d592c6c55a274c5c146367696ce4ecce0"
+    },
+    {
+      "path": "mypretrain/model_Mutagenicity_M3.pth",
+      "bytes": 81801,
+      "sha256": "5501d2ba50f2e8a9d0d744cf86ef00643f4773fc0be4380fae3fc75cab803e18"
+    },
+    {
+      "path": "mypretrain/model_PROTEINS_P1.pth",
+      "bytes": 79137,
+      "sha256": "e12ea79b0c6f0d9086fdd6bc3aa6dc257e148a927aee4ffa93b51c8354536686"
+    },
+    {
+      "path": "mypretrain/model_PROTEINS_P2.pth",
+      "bytes": 79137,
+      "sha256": "0d7b186d7706c6f9ccf82640cb93c1ed56631412e124c887f894bf53a87ae697"
+    },
+    {
+      "path": "mypretrain/model_PROTEINS_P3.pth",
+      "bytes": 79137,
+      "sha256": "11ae10499104c3b2a18a2baad4438e65cdfcbfdb70933425ea57b8223b0662d5"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 975,
+      "sha256": "b69790e88e7cc0b5e9a64a81d415944c559a4ec32071aea25e1811d5482b2c4d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8358,
+      "sha256": "f8c781f05fa7ad3c59cd3aa33758cfc0a0ac24f56c9c47717b3cadf89b60d1fe"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 386,
+      "sha256": "859647ad8783dd831a02a9bb6022919e9647b65829688385313ea872bb892ce2"
+    },
+    {
+      "path": "results/reference_results.json",
+      "bytes": 2239,
+      "sha256": "63ac42f2526654521dba7bf576e6cbd50d367b5744d436ca1293e35bbc439c3b"
+    }
+  ]
+}
