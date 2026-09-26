@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "target": "CSBM-G4",
+      "checkpoint_directory": "checkpoints/CSBM-G4",
+      "accuracy_percent": 98.6125,
+      "correct": 7889,
+      "total": 8000,
+      "primary": "CSBM-G1",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 2024,
+      "epochs": 2000
+    },
+    {
+      "target": "DBLPv7",
+      "checkpoint_directory": "checkpoints/DBLPv7",
+      "accuracy_percent": 78.95696571845369,
+      "correct": 4330,
+      "total": 5484,
+      "primary": "Citationv1",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 0,
+      "epochs": 2000
+    },
+    {
+      "target": "ACMv9",
+      "checkpoint_directory": "checkpoints/ACMv9",
+      "accuracy_percent": 73.82478632478633,
+      "correct": 6910,
+      "total": 9360,
+      "primary": "Citationv1",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 2024,
+      "epochs": 2000
+    },
+    {
+      "target": "Citationv1",
+      "checkpoint_directory": "checkpoints/Citationv1",
+      "accuracy_percent": 82.61891438164521,
+      "correct": 7382,
+      "total": 8935,
+      "primary": "ACMv9",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 2024,
+      "epochs": 2000
+    },
+    {
+      "target": "PROTEINS_P4",
+      "checkpoint_directory": "checkpoints/PROTEINS_P4",
+      "accuracy_percent": 62.007168458781365,
+      "correct": 173,
+      "total": 279,
+      "primary": "PROTEINS_P1",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 0,
+      "epochs": 40
+    },
+    {
+      "target": "Mutagenicity_M4",
+      "checkpoint_directory": "checkpoints/Mutagenicity_M4",
+      "accuracy_percent": 70.4147465437788,
+      "correct": 764,
+      "total": 1085,
+      "primary": "Mutagenicity_M2",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 2024,
+      "epochs": 2000
+    },
+    {
+      "target": "FRANKENSTEIN_F4",
+      "checkpoint_directory": "checkpoints/FRANKENSTEIN_F4",
+      "accuracy_percent": 59.1705069124424,
+      "correct": 642,
+      "total": 1085,
+      "primary": "FRANKENSTEIN_F1",
+      "primary_selection": "inverse_max_argmin",
+      "seed": 0,
+      "epochs": 35
+    }
+  ]
+}
